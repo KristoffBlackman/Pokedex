@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 17px 0;
+}
+
+.btn button {
+    border-style: none;
+    padding: 7px 12px;
+    margin-right: 8px;
+    border-radius: 3px;
+    background: #df1b14;
+    color: rgb(19, 18, 18);
+    font-size: 1.75em;
+}
+.grid-container {
+    grid-gap: 15px;
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
